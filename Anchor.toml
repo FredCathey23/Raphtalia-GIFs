@@ -1,0 +1,15 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+raphtalia_gif = "C4S8w953x4WVyNr1jiq2HJLxQV5apmhFtWASkEyhjijV"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/fredcathey/.config/solana/id.json"
+
+[scripts]
+test = "node tests/raphtalia-gif.js"
